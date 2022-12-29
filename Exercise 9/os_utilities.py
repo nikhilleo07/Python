@@ -1,4 +1,5 @@
 import platform
+import psutil
  
 def detect_os()->str:
     return platform.system()

@@ -1,0 +1,5 @@
+print('Tuple of Anime')
+anime=('Naruto','One Piece','Attack on Titans','One Piece','Dragon Ballz','One Piece')
+print(type(anime))
+print('Count the number of One Piece in the anime tuple :'+str(anime.count('One Piece')))
+print('Where is the first One Piece in the tuple :'+str(anime.index('One Piece')))
